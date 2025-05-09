@@ -3,7 +3,8 @@ import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import CategoryFilter from '../components/CategoryFilter';
 import Loader from '../components/Loader';
-import { fetchProducts, fetchCategories } from '../api/tebexApi';
+// Importe für Demonstrationszwecke auskommentiert, da wir Mock-Daten verwenden
+// import { fetchProducts, fetchCategories } from '../api/tebexApi';
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
