@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ShoppingCart, ArrowLeft, Tag } from 'lucide-react';
 import Loader from '../components/Loader';
-import { fetchProductById } from '../api/tebexApi';
+// Importe für Demonstrationszwecke auskommentiert, da wir Mock-Daten verwenden
+// import { fetchProductById } from '../api/tebexApi';
 
 const ProductDetail = () => {
   const { id } = useParams();
