@@ -4,7 +4,8 @@ import HeroSection from '../components/HeroSection';
 import ProductCard from '../components/ProductCard';
 import DiscordWidget from '../components/DiscordWidget';
 import Loader from '../components/Loader';
-import { fetchProducts, fetchCategories } from '../api/tebexApi';
+// Importe für Demonstrationszwecke auskommentiert, da wir Mock-Daten verwenden
+// import { fetchProducts, fetchCategories } from '../api/tebexApi';
 
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
