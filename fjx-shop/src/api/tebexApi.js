@@ -107,7 +107,8 @@ export const handleWebhook = async (webhookData) => {
   }
 };
 
-export default {
+// Create named export for default
+const tebexApi = {
   fetchProducts,
   fetchProductById,
   fetchCategories,
@@ -115,3 +116,5 @@ export default {
   generateCheckoutUrl,
   handleWebhook,
 };
+
+export default tebexApi;
